@@ -1,28 +1,7 @@
 <div align="center">
 
-# GS-VTON: Controllable 3D Virtual Try-on with Gaussian Splatting
-  
-              <span class="author-block">
-              <a href="https://yukangcao.github.io/">Yukang Cao</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://haozhexie.com/about">Haozhe Xie</a><sup>1</sup>, 
-            </span>
-            <span class="author-block">
-              <a href="https://hongfz16.github.io/">Fangzhou Hong</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://frozenburning.github.io/">Zhaoxi Chen</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://scholar.google.com/citations?user=_DVnyb8AAAAJ&hl=zh-CN">Long Zhuo</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://ethan7899.github.io/">Liang Pan</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://liuziwei7.github.io/">Ziwei Liu</a><sup>1†</sup>
-            </span>
+# HSImul3R: Physics-in-the-Loop Reconstruction of Simulation-Ready Human–Scene Interactions
+
 <a href="https://yukangcao.github.io/">Yukang Cao</a>,
 <a href="https://haozhexie.com/about">Haozhe Xie</a>,
 <a href="https://hongfz16.github.io/">Fangzhou Hong</a>,
@@ -35,7 +14,7 @@
 [![Paper](http://img.shields.io/badge/Paper-arxiv.2410.05259-B31B1B.svg)](https://arxiv.org/abs/2410.05259)
 <a href="https://yukangcao.github.io/HSImul3R/"><img alt="page" src="https://img.shields.io/badge/Webpage-0054a6?logo=Google%20chrome&logoColor=white"></a>
 
-<img src="./docs/static/video_robotics.webp">
+<img src="./docs/static/video_robotics.">
   
 Please refer to our webpage for more visualizations.
 </div>
