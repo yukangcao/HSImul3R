@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="A real-to-sim pipeline for reconstructing simulation-ready 3D Human-Scene-Interaction from casual captures">
+  <meta name="keywords" content="Embodied AI, Human-Scene-Interaction, Human Motions, 3D Objects">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HSImul3R</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+  
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="stylesheet" href="./static/css/result.css">
+  <!-- <link rel="icon" href="./static/images/favicon.svg"> -->
+
+
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-2 publication-title">HSImul3R: Physics-in-the-Loop Reconstruction of Simulation-Ready Human–Scene Interactions</h1>
+          <div class="is-size-4 publication-authors">
+            <span class="author-block">
+              <a href="https://yukangcao.github.io/">Yukang Cao</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://haozhexie.com/about">Haozhe Xie</a><sup>1</sup>, 
+            </span>
+            <span class="author-block">
+              <a href="https://hongfz16.github.io/">Fangzhou Hong</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://frozenburning.github.io/">Zhaoxi Chen</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=_DVnyb8AAAAJ&hl=zh-CN">Long Zhuo</a><sup>3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://ethan7899.github.io/">Liang Pan</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://liuziwei7.github.io/">Ziwei Liu</a><sup>1†</sup>
+            </span>
+          </div>
+
+          <div class="is-size-6 publication-authors">
+            <span class="footnote">
+              <sup>†</sup>Corresponding author
+            </span>
+          </div>
+          <div class="is-size-6 publication-authors">
+            <p>
+            <span class="author-block">
+              <sup>1</sup>S-Lab, Nanyang Technological University 
+              <sup>2</sup>ACE Robotics
+              <sup>3</sup>Shanghai AI Laboratory
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            Arxiv 2026
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+
+              <span class="link-block">
+                <a href="https://github.com/yukangcao/HSImul3R"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="my-hr">
+  <hr>
+</div>
+
+<section class="section">
+
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <table>
+          <tr>
+            <td><img src="./static/HSImul3R-g1-teaser.png"></td>
+          </tr>
+
+        </table>
+        <div class="content has-text-justified">
+          <p>
+            Given casual captures, our approach achieves simulation-ready 3D reconstruction of human–scene interactions by refining the human motions and scene geometry via a physically-grounded bi-directional optimization pipeline. Our optimized human motions can be seamlessly transferred and deployed in humanoid robotics.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+          <table>
+            <tr>
+              <td><img src="./static/HSImul3R-teaser.png"></td>
+            </tr>
+  
+          </table>
+          <div class="content has-text-justified">
+            <p>
+              Our approach enables simulation-ready 3D reconstruction of human–scene interactions from casual captures. In addition, we collect HSIBench, a dataset comprising 16-view synchronized captures of diverse human–scene interactions, covering a wide range of scene objects, human subjects, and motions.            
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <hr>
+
+<hr>
+
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            We present **HSImul3R**, a unified framework for simulation-ready 3D reconstruction of human-scene interactions (HSI) from casual captures, including sparse-view images and monocular videos. Existing methods suffer from a perception-simulation gap: visually plausible reconstructions often violate physical constraints, leading to instability in physics engines and failure in embodied AI applications. To bridge this gap, we introduce a **physically-grounded bi-directional optimization pipeline** that treats the physics simulator as an active supervisor to jointly refine human dynamics and scene geometry. In the forward direction, we employ Scene-targeted Reinforcement Learning to optimize human motion under dual supervision of motion fidelity and contact stability. In the reverse direction, we propose Direct Simulation Reward Optimization, which leverages simulation feedback on gravitational stability and interaction success to refine scene geometry. We further present **HSIBench**, a new benchmark with diverse objects and interaction scenarios. Extensive experiments demonstrate that HSImul3R produces the first stable, simulation-ready HSI reconstructions and can be directly deployed to real-world humanoid robots.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+<hr>
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-full-width">
+            <h2 class="title is-3">Methodology</h2>
+            <img src="./static/hsimul3r_pipe.png" witdh="300">
+            <div class="content has-text-justified">
+              <p>
+                Given casual captures as inputs, we achieve simulation-ready reconstruction of human–scene interactions via a physics-in-the-loop optimization pipeline. We first propose to inject an 3D explicit generative prior into the reconstruction pipeline to achieve better alignment between human and scene. Then, **(1)** in the forward-pass, we propose a scene-targeted reinforcement learning that optimize the human motion to achieve interaction stability within the simulator, **(2)** in the reverse-pass, we introduce a direct simulation reward optimization (DSRO) to refine the scene geometry via simulation feedback regarding the stability. Specifically, we define the 4 types regarding the feedback. Type 1: objects not stabilizing under gravity; Type 2: objects failing to stabilize during human interaction; Type 3: objects stabilizing but without meaningful interaction; Type 4: objects with stable interaction.              
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+<hr>
+
+<div class="columns is-centered has-text-centered">
+  <div class="column is-four-fifths">
+    <h2 class="title is-3">Sim-to-Real Results</h2>
+    <div class="content">
+      <div class="video-container">
+        <iframe
+          width="1200"
+          height="675"
+          src="https://www.youtube.com/embed/znjPCwQyhBQ"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="columns is-centered has-text-centered">
+  <div class="column is-four-fifths">
+    <h2 class="title is-3">Sim-to-Real Results</h2>
+    <div class="content">
+      <div class="video-container">
+        <iframe
+          width="1200"
+          height="675"
+          src="https://www.youtube.com/embed/FVua1XiPXcI"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+      @article{
+
+      }
+    </code></pre>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is constructed using the source code provided by <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>, and we are grateful for the template they provided.
+            Allow us to express our appreciation for their contribution.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</section>  
+
+</html>
