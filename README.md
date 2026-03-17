@@ -11,7 +11,7 @@
 <a href="https://liuziwei7.github.io/">Ziwei Liu</a><sup>†</sup>
 
 
-[![Paper](http://img.shields.io/badge/Paper-arxiv.2410.05259-B31B1B.svg)](https://arxiv.org/abs/2410.05259)
+[![Paper](http://img.shields.io/badge/Paper-arxiv.2603.15612-B31B1B.svg)](https://arxiv.org/abs/2603.15612)
 <a href="https://yukangcao.github.io/HSImul3R/"><img alt="page" src="https://img.shields.io/badge/Webpage-0054a6?logo=Google%20chrome&logoColor=white"></a>
 
 <img src="./docs/static/video_robotics.webp">
