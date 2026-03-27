@@ -34,6 +34,17 @@ Given casual captures as inputs, we achieve simulation-ready reconstruction of h
 ## Misc.
 If you want to cite our work, please use the following bib entry:
 ```
-@article{
+@article{cao2026hsimul3r,
+      title   = {{HSImul3R:} Physics-in-the-Loop Reconstruction of Simulation-Ready Human–Scene Interactions}, 
+      author  = {Yukang Cao and 
+                 Haozhe Xie and 
+                 Fangzhou Hong and 
+                 Long Zhuo and 
+                 Zhaoxi Chen and
+                 Liang Pan and
+                 Ziwei Liu},
+      journal = {arXiv},
+      volume  = {2603.15612},
+      year    = {2026}
 }
 ```
